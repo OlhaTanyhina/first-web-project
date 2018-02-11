@@ -1,0 +1,385 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	font: 20px/1.4 PTSerif sans-serif;
+	background-color: rgb(255, 255, 255);
+	width: 1199px;
+	margin: 0 auto;
+}
+
+header {
+	background: url("../img/header_bg.png")  no-repeat;
+	height: 693px;
+	
+	/*background-size: cover;*/
+	
+	
+}
+
+header h1 {
+	float: left;
+	margin-top: 35px;
+	margin-left: 100px; 
+}
+
+nav {
+	list-style: none;
+	float: right;
+	margin-right: 90px;
+}
+
+nav li {
+	display: inline-block;
+	margin-top: 55px;
+	/*margin-left: 5px;*/
+}
+
+nav li a {
+	text-decoration: none;
+	display: block;
+	color: #1b1b1b;
+	font: bold 18px/1.22  'Arial';
+	padding: 10px 19px 13px 14px;
+}
+
+.current a {
+	background: rgb(208, 57, 88);
+	color: #ffffff;
+	border-radius: 4px;
+}
+nav li a:hover {
+	background: rgb(208, 57, 88);
+	color: #ffffff;
+	border-radius: 4px;
+}
+blockquote {
+	position: absolute;
+	margin-left: 104px;
+	margin-top: 260px;
+	/*padding-left: 104px;
+	position: left;*/
+}
+.header-slogan {
+	padding-bottom: 45px;
+	font: bold 90px/0.88 'Arial';
+	color: #161616;
+	text-transform: uppercase;
+}
+
+b {
+	color: #d03958;
+}
+
+.header_subslogan {
+	
+	font: normal 20px/1.4 Times New Roman; 
+}
+
+.request {
+	font: bold 22px "Arial";
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	margin-top: 33px; 
+}
+
+form {
+	position: absolute;
+	margin-left: 697px;
+	margin-top: 260px;
+	background: rgb(208, 57, 88);
+	color: #ffffff;
+	border-radius: 4px;
+	width: 398px;
+	height: 518px;
+	text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+	width: 320px;
+	height: 57px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	font: normal 20px/1.25 "PTSerif";
+	padding-left: 20px;
+	margin-left: 25px;
+	margin-right: 22px;
+	border-color: rgb(255, 255, 255);
+ }
+ 
+input[type="submit"] {
+	width: 340px;
+	height: 57px;
+	border-radius: 4px;
+	background-color: rgb(22, 22, 22);	
+	border-color: rgb(22, 22, 22);
+	color: white;
+	margin-top: 16px;
+	font: bold 22px "Arial";
+	text-transform: uppercase;	
+}
+
+label {
+	vertical-align: top;
+	font: normal 20px/1.25 "PTSerif";
+	margin-left: 23px;
+}
+
+input[type="checkbox"] {
+	width: 19px;
+	height: 19px;
+	/*border-radius: 5px;
+	border: 2px solid black;
+	background-color: rgb(255, 255, 255);*/
+}
+
+.services {
+	height: 400px;
+}
+
+section h2 {
+	font: bold 50px/1.6 "Arial";
+	text-transform: uppercase;
+	margin-left: 100px;
+}
+
+figure {
+	width: 175px;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 55px;
+	text-align: center;
+}
+
+figure img {
+	text-align: center;
+}
+
+figcaption {
+	font: normal 20px/1.25 "PTSerif";
+}
+
+.our_story {
+	height: 120px;
+	background: rgb(208, 57, 88);
+	color: #ffffff;
+}
+
+.our_story > div {
+	display: inline-block;
+}
+
+.about_us {
+	margin-left: 100px;
+	padding-top: 30px;
+}
+
+.button_story {
+	margin-top: 30px;
+	margin-right: 105px;
+	float: right;
+	width: 269px;
+	height: 64px;
+	border-radius: 4px;
+	background: rgb(227, 213, 184);
+	text-transform: uppercase;
+	font: normal 22px "Arial";	
+	border-color: rgb(227, 213, 184);
+	text-align: center;
+}
+
+.button_story a {	
+	text-decoration: none;
+	display: block;
+	color: rgb(22, 22, 22);
+	padding: 20px 75px 20px 65px;
+}
+
+.pricing {
+	height: 550px;
+	background-color: rgb(227, 213, 184);
+}
+
+.wrapper_pricing {
+	margin-left: 80px;
+}
+
+
+.pricing h3 {
+	font: bold 50px/1.6 "Arial";
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 40px; 
+	padding-bottom: 42px;
+}
+
+.pricing_item {
+	display: inline-block;
+	float: center;
+	height: 390px;
+	width: 320px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 4px;
+	font: normal 22px/1.27 "PTSerif";
+	margin-left: 17px;	
+}
+
+.pricing_header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.price {
+	font: bold 60px/1.3 "Arial";
+	color: rgb(208, 57, 88);
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pricing_list {
+	list-style: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.button_buy input[type="submit"] {
+	width: 205px;
+	height: 50px;
+	background-color: rgb(227, 213, 184);
+	border-color: rgb(227, 213, 184);
+	color: rgb(22, 22 ,22);
+}
+
+.current_button_buy input[type="submit"] {
+	background-color: rgb(208, 57, 88);
+	border-color: rgb(208, 57, 88);
+	color: rgb(225, 225, 225);
+}
+
+.corner img {
+	position: absolute;
+	margin-left: -160px;
+}
+.corner_pricing_item {
+	float: left;
+	transform: rotate(-45deg);
+	font: normal 16px/1.75 "PTSerif";
+	padding-top: 20px;
+}
+
+.testimonial_gallery {
+	height: 690px;
+	font: normal 20px/1.4 "PTSerif";
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	display: flex;
+}
+
+.testimonial h4 {
+	font: bold 50px/1.6 "Arial";
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 165px;
+	padding-top: 150px;
+}
+
+.comment {
+	width: 385px;
+	height: 115px;
+	margin-bottom: 60px;
+	margin-left: 85px;
+	padding: 25px 0px 25px 25px;
+}
+
+.comment_second {
+	background: rgb(227, 213, 184);
+	border-radius: 4px;
+}
+
+.comment_avatar {
+	width: 130px;
+	height: 120px;
+	position: absolute;
+	left: 425px;	
+}
+
+.comment_first > .comment_avatar {
+	background: url("../img/comment_avatar_first.png") no-repeat;
+	top: 250px;
+}
+
+.comment_second > .comment_avatar {
+	background: url("../img/comment_avatar_second.png") no-repeat;
+	top: 470px;
+}
+
+.comment_author {
+	font: normal 20px/1.4  'Arial';
+	padding-top: 25px;
+	color: rgb(208, 57, 88);
+}
+
+.gallery {
+	margin-left: 185px;
+}
+
+.gallery h5 {
+	font: bold 50px/1.6 "Arial";
+	text-transform: uppercase;
+	color: rgb(208, 57, 88);
+	padding-top: 150px;
+	padding-left: 60px;
+	margin-bottom: 25px;
+}
+
+.images > div {
+	display: inline-block;
+}
+
+.images > div:last-child {
+	margin-left: 70px;	
+	margin-top: 30px;	
+}
+
+.images > div a:last-child {
+	font: normal 20px/1.4  'Arial';
+	color: rgb(208, 57, 88);
+	text-transform: uppercase;
+}
+
+footer {
+	height: 183px;
+	background-color: rgb(22, 22, 22);
+	color: rgb(173, 173, 173);
+	font: normal 20px/1.4 "PTSerif";
+	position: relative;
+}
+
+footer div {
+	display: inline-block;
+}
+
+.footer_text {
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 70px;
+}
+
+
+footer  span {
+	color: rgb(208, 57, 88);
+}
+
+.footer_logo {
+	margin-left: 990px;
+	margin-top: 75px;
+}
+
+
+
